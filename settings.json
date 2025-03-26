@@ -1,0 +1,71 @@
+{
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "JetBrains New Dark"
+  },
+  "ui_font_family": "JetBrains Mono",
+  "buffer_font_family": "JetBrains Mono",
+  "restore_on_startup": "last_session",
+  "base_keymap": "VSCode",
+  "buffer_line_height": "comfortable",
+  "current_line_highlight": "all",
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
+  },
+  "tabs": {
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": true,
+    "activate_on_close": "history",
+    "show_close_button": "hover"
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": true
+  },
+  "format_on_save": "on",
+  "formatter": "auto",
+  "languages": {
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    },
+    "TSX": {
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    },
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    },
+    "Go": {
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    }
+  },
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1,
+    "active_line_width": 2,
+    "coloring": "fixed",
+    "background_coloring": "disabled"
+  },
+  "icon_theme": {
+    "mode": "system",
+    "dark": "Charmed Icons",
+    "light": "Zed (Default)"
+  }
+}
